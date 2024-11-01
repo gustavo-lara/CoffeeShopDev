@@ -460,8 +460,8 @@ const Fornecedores = () => {
         </div>
 
         {/* Loading e Error Handling */}
-        {loading && <div className="text-center">Carregando...</div>}
-        {error && <div className="text-danger text-center">{error}</div>}
+        {/* {loading && <div className="text-center">Carregando...</div>}
+        {error && <div className="text-danger text-center"></div>} */}
       </div>
     </div>
   );
