@@ -78,13 +78,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* Footer */}
-      <footer className="bg-dark text-white-50 py-4">
-        <div className="container text-center">
-          <small>© 2024 Café & Aroma. Todos os direitos reservados.</small>
-        </div>
-      </footer>
     </div>
   );
 };

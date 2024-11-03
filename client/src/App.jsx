@@ -9,6 +9,7 @@ import Cliente from "./pages/Cliente.jsx";
 import Fornecedores from "./pages/Fornecedor.jsx";
 import Produtos from "./pages/Produtos.jsx";
 import Pedidos from "./pages/Pedidos.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/pedidos" element={<Pedidos />} />
           <Route path="/produtos" element={<Produtos />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
